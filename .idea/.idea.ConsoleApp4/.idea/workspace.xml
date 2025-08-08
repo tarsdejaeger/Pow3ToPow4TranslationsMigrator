@@ -16,6 +16,9 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Pow3ToPow4TranslationsMigrator/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -43,6 +46,7 @@
     &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -87,7 +91,7 @@
       <workItem from="1754463991232" duration="3438000" />
       <workItem from="1754468157310" duration="1085000" />
       <workItem from="1754486898204" duration="2242000" />
-      <workItem from="1754641263680" duration="681000" />
+      <workItem from="1754641263680" duration="966000" />
     </task>
     <servers />
   </component>
