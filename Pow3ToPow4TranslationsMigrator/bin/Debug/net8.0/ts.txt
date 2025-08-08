@@ -1,8 +1,0 @@
-13>ShortKey.cs(153,96): Error CS0117 : 'SharedResource' does not contain a definition for 'Rotate'
-13>ShortKey.cs(154,104): Error CS0117 : 'SharedResource' does not contain a definition for 'WindowLevelPresets'
-13>ShortKey.cs(155,89): Error CS0117 : 'SharedResource' does not contain a definition for 'ResetWindowLevel'
-13>ShortKey.cs(156,110): Error CS0117 : 'SharedResource' does not contain a definition for 'ShortcutRightMouseContent'
-13>ShortKey.cs(157,94): Error CS0117 : 'SharedResource' does not contain a definition for 'ShortcutAltDragDropContent'
-13>ShortKey.cs(158,92): Error CS0117 : 'SharedResource' does not contain a definition for 'ShortcutCtrlScrollContent'
-13>ShortKey.cs(159,98): Error CS0117 : 'SharedResource' does not contain a definition for 'ShortcutCtrlDragDropContent'
-13>ShortKey.cs(161,135): Error CS0117 : 'SharedResource' does not contain a definition for 'AdjustLinkingPosition'
