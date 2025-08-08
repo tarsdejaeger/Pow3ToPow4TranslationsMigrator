@@ -8,11 +8,11 @@ var regex = new Regex("Property \'(.*)\' does not exist on type \'IResources\'")
 var regex2 = new Regex("Type '\"(.*)\"' is not assignable to type \'keyof IResources");
 
 var matches = regex.Matches(fileContent);
-var matches2 = regex2.Matches(fileContent);
+ var matches2 = regex2.Matches(fileContent);
 
 var missingKeys = new HashSet<string>();
 
-foreach (Match match in matches)
+foreach (Match match in matches.Concat(matches2))
 {
     if (match.Groups.Count > 1) // Group 0 is the full match, groups[1..] are captures
     {
@@ -20,15 +20,7 @@ foreach (Match match in matches)
     }
 }
 
-foreach (Match match in matches2)
-{
-    if (match.Groups.Count > 1) // Group 0 is the full match, groups[1..] are captures
-    {
-        missingKeys.Add(match.Groups[1].Value);
-    }
-}
-
-Console.WriteLine("\nCaptured matches:");
+Console.WriteLine("Parsed following keys:");
 if (missingKeys.Count == 0)
 {
     Console.WriteLine("No matches found.");
@@ -37,7 +29,6 @@ if (missingKeys.Count == 0)
 
 foreach (var match in missingKeys)
 {
-    Console.WriteLine("Transferring the following keys to POW4 translation files:");
     Console.WriteLine(match);
 }
 
@@ -67,10 +58,15 @@ foreach (var (sourceXml, destinationXml) in translationFiles)
 
         foreach (XmlNode pow3DataNode in pow3TranslationsXmlDox.SelectNodes("//data")!)
         {
-            if (missingKeys.Contains(pow3DataNode.Attributes!["name"]!.Value))
+            var key = pow3DataNode.Attributes!["name"]!.Value;
+            if (missingKeys.Contains(key))
             {
-                var pow4DataNode = pow4TranslationsXmlDoc.ImportNode(pow3DataNode, true);
-                pow4TranslationsRoot!.AppendChild(pow4DataNode);
+                if (pow4TranslationsXmlDoc.SelectNodes($"//data[@name='{key}']")!.Count == 0)
+                {
+                    Console.WriteLine($"Transferring key {key} to {destinationXml}");
+                    var pow4DataNode = pow4TranslationsXmlDoc.ImportNode(pow3DataNode, true);
+                    pow4TranslationsRoot!.AppendChild(pow4DataNode);
+                }
             }
         }
     

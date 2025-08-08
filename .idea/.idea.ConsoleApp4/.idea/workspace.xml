@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e1b5727-e0bf-481a-aa92-3224273e258d" name="Changes" comment="" />
+    <list default="true" id="2e1b5727-e0bf-481a-aa92-3224273e258d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pow3ToPow4TranslationsMigrator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pow3ToPow4TranslationsMigrator/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pow3ToPow4TranslationsMigrator/ts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pow3ToPow4TranslationsMigrator/ts.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +24,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/145e1b21186d59d8b1c166f867c940c92194cfec25c925fe8911210497b/XmlNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pow3ToPow4TranslationsMigrator/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -91,16 +97,36 @@
       <workItem from="1754463991232" duration="3438000" />
       <workItem from="1754468157310" duration="1085000" />
       <workItem from="1754486898204" duration="2242000" />
-      <workItem from="1754641263680" duration="1256000" />
+      <workItem from="1754641263680" duration="3204000" />
     </task>
+    <task id="LOCAL-00001" summary="ReadMe.md">
+      <option name="closed" value="true" />
+      <created>1754642678012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754642678012</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ReadMe.md">
+      <option name="closed" value="true" />
+      <created>1754642685529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754642685529</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="ReadMe.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadMe.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

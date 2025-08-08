@@ -1,3 +1,20 @@
-
-
-paste the output of ts in this file
+"FirstName" |           //POW
+"LastName" |            //POW
+"PatientID" |           //POW & PACS
+"RequestingPhysician" | //POW
+"Modality" |            //POW
+"Source_Description" |  //POW
+"PatientDOB" |          //POW
+"Study_datetime_ISO" |  //POW
+"AccessionNumber" |     //POW & PACS
+"StudyStatus" |         //POW
+"Radiologist" |         //POW
+"LabelsInclude" |       //POW
+"LabelsExclude" |       //POW
+"NationalNumber" |      //POW
+"HideFilteredStudies" | //POW
+"PerformingDepartment" |
+"QRServer" |            //      PACS
+"StudyDate" |           //      PACS
+"PatientName"           //      PACS (Split in LastName and FirstName in filter object)
+;
